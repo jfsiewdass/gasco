@@ -1,0 +1,6 @@
+@gasco_HostAddress = http://localhost:5128
+
+GET {{gasco_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

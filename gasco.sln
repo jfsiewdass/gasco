@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gasco", "gasco\Gasco.csproj", "{1B781AD0-DAE4-4DC9-9B8E-49EF5AAA90F9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{04BE93BE-7487-63A6-32C8-1771D96DC5D9} = {04BE93BE-7487-63A6-32C8-1771D96DC5D9}
+		{3E115B6C-8538-88BC-09D6-7025AC6398AB} = {3E115B6C-8538-88BC-09D6-7025AC6398AB}
+		{9CF00371-653C-3908-D87E-24361890CC61} = {9CF00371-653C-3908-D87E-24361890CC61}
+		{E3240933-9737-7706-0A73-8DCEF4FC3D74} = {E3240933-9737-7706-0A73-8DCEF4FC3D74}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gasco.App", "Gasco.App\Gasco.App.csproj", "{9CF00371-653C-3908-D87E-24361890CC61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gasco.AppLogic", "Gasco.AppLogic\Gasco.AppLogic.csproj", "{E3240933-9737-7706-0A73-8DCEF4FC3D74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gasco.Common", "Gasco.Common\Gasco.Common.csproj", "{04BE93BE-7487-63A6-32C8-1771D96DC5D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gasco.Repositories", "Gasco.Repositories\Gasco.Repositories.csproj", "{3E115B6C-8538-88BC-09D6-7025AC6398AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B781AD0-DAE4-4DC9-9B8E-49EF5AAA90F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B781AD0-DAE4-4DC9-9B8E-49EF5AAA90F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B781AD0-DAE4-4DC9-9B8E-49EF5AAA90F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B781AD0-DAE4-4DC9-9B8E-49EF5AAA90F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CF00371-653C-3908-D87E-24361890CC61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CF00371-653C-3908-D87E-24361890CC61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CF00371-653C-3908-D87E-24361890CC61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CF00371-653C-3908-D87E-24361890CC61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3240933-9737-7706-0A73-8DCEF4FC3D74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3240933-9737-7706-0A73-8DCEF4FC3D74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3240933-9737-7706-0A73-8DCEF4FC3D74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3240933-9737-7706-0A73-8DCEF4FC3D74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04BE93BE-7487-63A6-32C8-1771D96DC5D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04BE93BE-7487-63A6-32C8-1771D96DC5D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04BE93BE-7487-63A6-32C8-1771D96DC5D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04BE93BE-7487-63A6-32C8-1771D96DC5D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E115B6C-8538-88BC-09D6-7025AC6398AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E115B6C-8538-88BC-09D6-7025AC6398AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E115B6C-8538-88BC-09D6-7025AC6398AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E115B6C-8538-88BC-09D6-7025AC6398AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {59599859-CD3D-4E7A-A4C4-5F2F4901F81B}
+	EndGlobalSection
+EndGlobal
